@@ -1,0 +1,178 @@
+/********  
+    Header
+*********/
+
+.navbar {
+    padding: 15px;
+    background-color: rgb(171, 210, 247);
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 25px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(171, 210, 247);
+}
+
+.nav li:hover {
+    background-color: rgb(171, 210, 247) !important;
+}
+
+
+/********  
+    HOME
+*********/
+
+#home {
+    text-align: center;
+    padding: 35px;
+    margin-top: 75px;
+}
+
+#home h1 {
+    font-size: 50px;
+    color: rgb(29, 129, 243);
+}
+
+#home p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#home button {
+    margin: 10px;
+    font-size: 20px;
+    padding: 7px 22px 7px 22px;
+    border-radius: 25px;
+}
+
+
+/********  
+    signin
+*********/
+
+#signin {
+    padding: 25px;
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 75px;
+}
+
+#signin h2 {
+    font-size: 45px;
+    color: rgb(89, 140, 250);
+}
+
+#signin label {
+    font-size: 18px;
+}
+
+#signin input {
+    width: 500px;
+}
+
+#signin button {
+    padding: 7px 24px 7px 24px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+
+/********  
+    registor
+*********/
+
+#registor {
+    text-align: left;
+    margin-left: 75px;
+}
+
+#registor h2 {
+    font-size: 45px;
+    color: rgb(89, 140, 250);
+}
+
+#registor label {
+    font-size: 18px;
+}
+
+#registor input {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+#registor button {
+    padding: 7px 24px 7px 24px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+
+/********  
+    about
+*********/
+
+#about h2 {
+    color: rgb(89, 140, 250);
+    font-size: 45px;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+
+/********  
+    update and delete
+*********/
+
+#trash {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 15px;
+}
+
+#edit-btn {
+    background: none;
+    border: none;
+    color: blue;
+    font-size: 15px;
+}
+
+
+/********  
+    update
+*********/
+
+#update-head {
+    color: rgb(89, 140, 250);
+}
+
+#update label {
+    font-size: 18px;
+}
+
+#update input {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+#update button {
+    padding: 7px 24px 7px 24px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+
+/********  
+    studenttable
+*********/
+
+#heading1 {
+    color: rgb(89, 140, 250);
+}

@@ -1,0 +1,34 @@
+<%- include("partials/header") -%>
+
+    <div class="container" id="registor">
+        <h2>Students Details</h2>
+        <form action="/details" method="POST">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputname" class="form-label">Name</label>
+                <input type="name" class="form-control" id="exampleInputname" aria-describedby="emailHelp" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputclass" class="form-label">Class</label>
+                <input type="class" class="form-control" id="exampleInputclass" aria-describedby="emailHelp" name="class" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputrollno" class="form-label">Roll No.</label>
+                <input type="rollNo" class="form-control" id="exampleInputrollno" aria-describedby="emailHelp" name="rollNo" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputdob" class="form-label">Date of birth</label>
+                <input type="dob" class="form-control" id="exampleInputdob" aria-describedby="emailHelp" name="dob" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputphone" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="exampleInputphone" aria-describedby="emailHelp" name="phone" required>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
+        </form>
+    </div>
+
+    <%- include("partials/footer") -%>
